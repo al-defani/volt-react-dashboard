@@ -1,23 +1,21 @@
-// Volt React Dashboard
-// https://themesberg.com/product/dashboard/volt-react
-
+// Modified version that works with Vercel
 @use "sass:math";
 @use "sass:color";
 
-// Bootstrap configuration
-@use "../../node_modules/bootstrap/scss/functions" as *;
-@use "volt/variables" as *;
-@use "../../node_modules/bootstrap/scss/variables" as bootstrap-vars;
-@use "../../node_modules/bootstrap/scss/mixins" as *;
-
 // Bootstrap
-@use "../../node_modules/bootstrap/scss/bootstrap" as *;
+@forward "../../node_modules/bootstrap/scss/functions";
+@use "../../node_modules/bootstrap/scss/variables" as bs-variables;
+@use "../../node_modules/bootstrap/scss/mixins" as bs-mixins;
+@use "../../node_modules/bootstrap/scss/bootstrap";
 
-// Vendor dan komponen Volt
+// Custom variables
+@use "volt/variables" as volt-vars;
+
+// Custom styles
 @use "volt/vendor";
 @use "volt/mixins";
 @use "volt/functions";
 @use "volt/reboot";
-@use "volt/utilities";
+@use "volt/utilities"; 
 @use "volt/layout";
 @use "volt/components";
