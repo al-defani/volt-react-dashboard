@@ -21,7 +21,7 @@ import { HashRouter } from "react-router-dom";
 import "./scss/volt.scss";
 
 // vendor styles
-import "react-datetime/css/react-datetime.css";
+import './assets/css/datetime.css';
 
 import HomePage from "./pages/HomePage";
 import ScrollToTop from "./components/ScrollToTop";
