@@ -28,6 +28,7 @@
   "sass": "^1.66.1",
   "react-scripts": "^5.0.1",
   "@popperjs/core": "^2.11.8"
+  "react-datetime": "^3.0.4"
 },
 "resolutions": {
   "sass": "^1.66.1"
