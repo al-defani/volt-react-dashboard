@@ -35,7 +35,8 @@
     "moment": "^2.29.4",
     "react-router-dom": "^6.11.2",
     "react-scripts": "^5.0.1",
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "react-router-hash-link": "^2.4.3"
   },
   "resolutions": {
     "sass": "^1.66.1"
