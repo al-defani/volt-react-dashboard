@@ -1,17 +1,13 @@
-// =========================================================
-// * Volt React Dashboard - Modernized
-// =========================================================
+// Volt React Dashboard
+// https://themesberg.com/product/dashboard/volt-react
 
-@use "https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap" as *;
+@use "sass:math";
+@use "sass:color";
 
 // Bootstrap configuration
 @use "../../node_modules/bootstrap/scss/functions" as *;
 @use "volt/variables" as *;
-@use "../../node_modules/bootstrap/scss/variables" as bootstrap-vars with (
-  $primary: $primary,
-  $secondary: $secondary
-  // Tambahkan override variables lainnya di sini
-);
+@use "../../node_modules/bootstrap/scss/variables" as bootstrap-vars;
 @use "../../node_modules/bootstrap/scss/mixins" as *;
 
 // Bootstrap
