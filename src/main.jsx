@@ -1,6 +1,10 @@
-import { createRoot } from 'react-dom/client'
-import App from './App'
-import './index.css' // Jika ada CSS global
+import { BrowserRouter } from 'react-router-dom';
+import Routes from '@/routes';
 
-const root = createRoot(document.getElementById('root'))
-root.render(<App />)
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  );
+}
